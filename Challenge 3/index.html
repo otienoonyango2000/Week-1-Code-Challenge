@@ -9,17 +9,20 @@
 <body>
     <h1>Net Salary Calculator</h1>
 
-    <form name="formcalc">
-        Gross salary: <input type="text" name="txtnum1">
+    <form id="allowence">
+        Basic salary: <input type="text" name="basic">
         <br/>
-        Deductions: <input type="text" name="txtnum2">
+        Allowences: <input type="text" name="allowence">
         <br/>
-        result: <input type="text" name="txtres"><br/>
+       
 
-        <input type="button" value="calculate" onclick="sumValues()">
+        <input type="submit" value="calculate">
 
     </form>
-
+    <div id="result">
+        0
+    </div>
+    
     
     <script src="./index.js"></script>
     
